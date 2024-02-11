@@ -1,0 +1,55 @@
+#footer {
+    background-color: black;
+    color: Linen;
+    font-family: 'Satoshi', sans-serif;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}
+
+#footer .segment1,
+#footer .segment2 {
+    margin-bottom: 1em;
+}
+
+#footer a {
+    color: linen;
+    text-decoration: none;
+    font-size: large;
+}
+
+#footer a[href="#top"] {
+    display: block;
+    background: url('img/arrow-up-line.svg') no-repeat center white;
+    width: 30px;
+    /* adjust as per your icon size */
+    height: 30px;
+    /* adjust as per your icon size */
+    position: absolute;
+    right: 10px;
+    top: 15%;
+    /* adjust this value to align the icon with the email or user ID */
+    border-radius: 50%;
+}
+
+#footer a img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#footer .userid {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#footer hr {
+    border: 0;
+    border-top: 5px solid #22211f;
+}
+
+#footer p {
+    font-size: 10px;
+    line-height: 0;
+    margin: 0;
+
+}
