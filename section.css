@@ -40,18 +40,20 @@
     margin-top: 20px;
 }
 
-.segment1{
-    overflow-x: hidden;
-}
-
-@keyframes ticker {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-}
-
-#footer .segment1 .animated-text {
+#footer .segment1 .ticker-container {
+    width: 200%; 
+    display: flex;
+    overflow: hidden;
+  }
+  
+  #footer .segment1 .animated-text {
     white-space: nowrap;
-    display: inline-block; 
-    animation: ticker 10s linear infinite;
-}
-
+    display: inline-block;
+    animation: ticker 12s linear infinite;
+  }
+  
+  @keyframes ticker {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+  }
+  
