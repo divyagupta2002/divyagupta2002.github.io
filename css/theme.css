@@ -1,8 +1,8 @@
 /* Typography */
 
 h1 {
-    font-size: 100px;
-    line-height: 120%;
+    font-size: 125px;
+    line-height: 100%;
     font-family: 'Clash Display', sans-serif;
 }
 
@@ -20,7 +20,7 @@ h3 {
 
 h4 {
     font-size: 34px;
-    line-height: 40px;
+    line-height: 42.5px;
     font-weight: 500;
     font-family: 'Clash Display', sans-serif;
     /* dont bold */

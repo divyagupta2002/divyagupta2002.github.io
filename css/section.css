@@ -32,26 +32,7 @@
     margin-top: 30px;
 }
 
-#footer .segment1 p {
-    font-family: 'Satoshi', sans-serif;
-    font-size: 24px;
-    line-height: 30px;
-    color: #fff;
-    margin-top: 20px;
+#section2 {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
-
-.segment1{
-    overflow-x: hidden;
-}
-
-@keyframes ticker {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-}
-
-#footer .segment1 .animated-text {
-    white-space: nowrap;
-    display: inline-block; 
-    animation: ticker 10s linear infinite;
-}
-

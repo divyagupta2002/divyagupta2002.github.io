@@ -108,21 +108,6 @@
     opacity: 0;
 }
 
-#footer .segment1 .animated-text {
-    margin-top: auto;
-    margin-bottom: auto;
-    animation: marquee 10s linear infinite;
-}
-
-/* @keyframes marquee {
-    0% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(0%);
-    }
-} */
 .segment1 {
     overflow-x: hidden;
 }
