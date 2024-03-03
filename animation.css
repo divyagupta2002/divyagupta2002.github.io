@@ -123,3 +123,22 @@
         transform: translateX(0%);
     }
 } */
+.segment1 {
+    overflow-x: hidden;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#footer .segment1 .animated-text {
+    white-space: nowrap;
+    display: inline-block;
+    animation: ticker 10s linear infinite;
+}
