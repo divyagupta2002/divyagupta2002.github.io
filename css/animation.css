@@ -68,6 +68,17 @@
     }
 }
 
+
+@keyframes ticker {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 #section1 .flex-container {
     display: inline-flex;
     align-items: center;
@@ -108,18 +119,8 @@
     opacity: 0;
 }
 
-.segment1 {
+#footer .segment1 {
     overflow-x: hidden;
-}
-
-@keyframes ticker {
-    0% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
 }
 
 #footer .segment1 .animated-text {

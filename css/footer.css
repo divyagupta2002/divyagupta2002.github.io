@@ -12,32 +12,23 @@
     margin-bottom: 1em;
 }
 
-#footer a {
-    text-align: center;
-}
-
 #footer a[href="#top"] {
     display: block;
-    background: url('img/arrow-up-line.svg') no-repeat center linen;
-    width: 30px;
+    background: url('../img/arrow-up-line.svg') no-repeat center linen;
+    width: 40px;
     /* adjust as per your icon size */
-    height: 30px;
+    height: 40px;
     /* adjust as per your icon size */
     position: absolute;
     right: 10px;
-    top: 15%;
+    top: 40%;
     /* adjust this value to align the icon with the email or user ID */
-    border-radius: 0%;
+    border-radius: 50%;
 }
 
 #footer a img {
     vertical-align: middle;
     margin-right: 10px;
-}
-
-#footer .userid {
-    font-size: 20px;
-    line-height: 30px;
 }
 
 #footer hr {
