@@ -69,16 +69,6 @@
 }
 
 
-@keyframes ticker {
-    0% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
 #section1 .flex-container {
     display: inline-flex;
     align-items: center;
@@ -107,6 +97,7 @@
     animation: fadeIn 0.5s ease-in-out 4s forwards;
     vertical-align: middle;
     opacity: 0;
+
 }
 
 #section1 .animated-block {
@@ -119,12 +110,31 @@
     opacity: 0;
 }
 
-#footer .segment1 {
-    overflow-x: hidden;
+@keyframes marquee {
+    0% {
+        transform: translateX(-5%);
+    }
+
+    50% {
+        transform: translateX(-150%);
+    }
+
+    100% {
+        transform: translateX(-5%);
+    }
 }
 
-#footer .segment1 .animated-text {
+.text-train {
+    display: block;
     white-space: nowrap;
-    display: inline-block;
-    animation: ticker 10s linear infinite;
+    overflow: visible;
+    animation: marquee 30s ease-in-out infinite;
+}
+
+.email-links a img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.email-links a:hover img {
+    transform: rotate(45deg);
 }
