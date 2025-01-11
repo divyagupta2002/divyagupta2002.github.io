@@ -110,17 +110,13 @@
     opacity: 0;
 }
 
-@keyframes marquee {
+/* @keyframes marquee {
     0% {
-        transform: translateX(-5%);
-    }
-
-    50% {
-        transform: translateX(-150%);
+        transform: translateX(100px);
     }
 
     100% {
-        transform: translateX(-5%);
+        transform: translateX(-100px);
     }
 }
 
@@ -128,8 +124,9 @@
     display: block;
     white-space: nowrap;
     overflow: visible;
-    animation: marquee 30s ease-in-out infinite;
-}
+        animation: marquee 15s ease-in-out infinite;
+        }
+                 */
 
 .email-links a img {
     transition: transform 0.3s ease-in-out;

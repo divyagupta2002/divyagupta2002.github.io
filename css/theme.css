@@ -41,9 +41,7 @@ p {
 body {
     color: linen;
     background-color: black;
-    align-items: center;
-    max-width: fit-content;
-    margin: auto;
+    margin: 0;
 }
 
 

@@ -11,7 +11,7 @@ p {
 /* add all p of .text-train in one line and make line move*/
 .text-train {
     display: flex;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Satoshi', sans-serif;
     margin-top: 30px;
 }
@@ -26,9 +26,8 @@ p {
     font-size: 32px;
 }
 
-#footer a[href="#top"] {
+/* #footer a[href="#top"] {
     display: flex;
-    position: absolute;
     background-color: linen;
     width: 40px;
     height: 40px;
@@ -37,6 +36,7 @@ p {
     border-radius: 50%;
 }
 
+*/
 #footer a img {
     vertical-align: middle;
     margin-right: 10px;
