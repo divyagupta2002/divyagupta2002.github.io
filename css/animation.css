@@ -101,7 +101,7 @@
 }
 
 #section1 .animated-block {
-    animation: fadeInSlideDown 0.25s ease-in-out 4.5s forwards;
+    animation: fadeInSlideDown 0.75s ease-in-out 4.5s forwards;
     opacity: 0;
 }
 
